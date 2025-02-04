@@ -1,29 +1,64 @@
 <!doctype html>
 <html>
-<head><title>Practice Work</title>
-<div style="background-color:teal;width:50%;margin:auto;box-shadow: 7px 7px 10px gray; text-align:center;color:white;"> <h1>PRACTICE WORK
-</head></div></h1>
+	<title> PracticeWork</title>
 <style>
-#navbar
-{background:tal;cursor:pointer;
+@keyframes comefrombottom {
+    from {margin-top: 20px;}
+    to {margin-top: 0px;}
 }
-#navbar ol
-{margin:auto;width:50%;margin-top:100px;
-}
-#navbar ol li
-{list-style:none;display:inline-block;padding:30px;background:yellow;margin-left:_5px;transition:0.50s;box-shadow:10px 10px 10px gray;
-}
-#navbar ol li:hover
-{border-radius:20px;
-background:red;
-}
-a:link{color:green;text-decoration:none}
-a:visited{color:green;}
+
+#box
+	{
+			animation: comefrombottom 1s ease-out;
+		font-family:verdana;
+		width:200px;
+		height:35px;
+		padding:15px;
+		cursor:pointer;
+		transition:0.50s;
+		text-align:center;
+		list-style:none;
+		font-size:25px;
+		margin:auto
+	}
+
+#box:hover
+	{
+	font-family:verdana;
+	background:yellow;
+	padding:20px;
+	border-radius:30px;
+	transform:scale(1.10);
+	box-shadow:0px 0px 5px #EEEDEB;
+	}
+a:link{color:black;text-decoration:none}
 a:hover{text-decoration:underline;color:white}
-a:active{background:orange;}
+a:visited{color:brown}
+
+		
 </style>
-<body  style="background:black;">
-<div id="navbar">
+<body  style= "font-family:Helvetica" bgcolor="#000000">
+
+<h1
+	 style="background:teal;text-align:center; font-family: 'Georgia', serif; margin-top:0px ; padding:10px">
+	 <font color= "#EEEEEE" >
+	Practice Work
+	 </font>
+	 </h1>
+
+<div id="box">
+	<a href="index.html"> HOME </a> 
+</div>
+<div id="box">
+	<a href="list.html"> LIST </a> 
+</div>
+	<div id="box">
+	<a href="photoshow2.html">PHOTOSHOW </a> 
+</div>
+<div id="box">
+	<a href="table.html">TABLE</a> 
+</div>
+</html>
 <ol>
 <li><a href="index.html">HOME</a></li>
 <li><a href="list.html">LIST</a></li>
